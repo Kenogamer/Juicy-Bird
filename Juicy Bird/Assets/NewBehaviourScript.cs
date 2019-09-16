@@ -7,10 +7,10 @@ public class NewBehaviourScript : MonoBehaviour
 {
 
     public GameObject player;
-    public Rigidbody fysik;
-    public bool lose;
+    public Rigidbody2D fysik;
+    public bool dead;
     public float yta;
-    public bool start;
+    public bool alive;
     public List<GameObject> ajj;
     public GameObject pipetack;
     public GameObject NERIPE;
@@ -18,6 +18,7 @@ public class NewBehaviourScript : MonoBehaviour
     public AudioSource DeathSound;
     public Text points;
     public float pointsIgen;
+    
 
 
     
@@ -25,6 +26,7 @@ public class NewBehaviourScript : MonoBehaviour
     {
         yta = gameObject.transform.GetSiblingIndex();
         tid = 3;
+        DeathSound = GetComponent<AudioSource>();
     }
 
     
@@ -50,18 +52,15 @@ public class NewBehaviourScript : MonoBehaviour
             tid = 3;
         }
 
-        if (start == true)
-        {
-            if (lose != true)
-            {
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    fysik.AddForce(Vector3.up * 250);
-                }
-            }
+        if (alive == true || dead != true)
+        {            
+          if (Input.GetKeyDown(KeyCode.Space))
+          {
+              fysik.AddForce(Vector3.up * 250);
+          }
         }
 
-        if (lose == true)
+        if (dead == true)
         {
             if (DeathSound.isPlaying == false)
             {
@@ -72,7 +71,7 @@ public class NewBehaviourScript : MonoBehaviour
                 DeathSound.Play();
             }
             
-            fysik.constraints = RigidbodyConstraints.FreezePosition;
+            fysik.constraints = RigidbodyConstraints2D.FreezePosition;
             Debug.Log("lost");
         }
 
@@ -81,9 +80,9 @@ public class NewBehaviourScript : MonoBehaviour
             Destroy(ajj[0]);
             ajj.RemoveAt(0);
         }
-        if (start == true)
+        if (alive == true)
         {
-            if (lose == false)
+            if (dead == false)
             {
                 pointsIgen += 1 * Time.deltaTime;
             }
@@ -94,38 +93,41 @@ public class NewBehaviourScript : MonoBehaviour
             ajj[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
         }
 
-        if (start == false)
+        if (alive == false)
         {
-            fysik.constraints = RigidbodyConstraints.FreezePosition;
+            fysik.constraints = RigidbodyConstraints2D.FreezePosition;
             Debug.Log("Not started");
         }
         else
         {
-            if (lose == false)
+            if (dead == false)
             {
-                fysik.constraints = RigidbodyConstraints.None;
-                fysik.constraints = RigidbodyConstraints.FreezeRotation;
+                fysik.constraints = RigidbodyConstraints2D.None;
+                fysik.constraints = RigidbodyConstraints2D.FreezeRotation;
                 Debug.Log("started");
             }
             
         }
 
-        if (start == false)
+        if (alive == false)
         {
-            if (Input.GetKeyDown(KeyCode.T))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
-                start = true;
+                alive = true;
                 fysik.AddForce(Vector3.up * 250);
             }
         }
 
+
     }
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnCollisionEnter(Collision2D collision)
     {
-        if (collision.transform.tag == "DONTTOUCH")
+        if (collision.transform.tag == "Kill")
         {
-            lose = true;
+            dead = true;
         }
     }
+    
 }
