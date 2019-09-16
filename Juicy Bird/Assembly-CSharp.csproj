@@ -62,36 +62,38 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\GameControl.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/linnea.immo/Documents/GitHub/Juicy-Bird/Juicy Bird/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -269,18 +271,6 @@
     </Reference>
     <Reference Include="UnityEngine.XRModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/Facebook/SDK/7.9.4/Facebook.Unity.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Arcade">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/Facebook/SDK/7.9.4/Facebook.Unity.Arcade.dll</HintPath>
-    </Reference>
-    <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/Facebook/SDK/7.9.4/Facebook.Unity.Settings.dll</HintPath>
-    </Reference>
-    <Reference Include="FacebookNamedPipeClient">
-      <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/PlaybackEngines/Facebook/SDK/7.9.4/FacebookNamedPipeClient.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.2.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
