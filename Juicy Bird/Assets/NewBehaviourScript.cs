@@ -20,14 +20,14 @@ public class NewBehaviourScript : MonoBehaviour
     public float pointsIgen;
 
 
-    // Start is called before the first frame update
+    
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
         tid = 3;
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         points.text = "Score: " + pointsIgen;
@@ -54,7 +54,7 @@ public class NewBehaviourScript : MonoBehaviour
         {
             if (lose != true)
             {
-                if (Input.GetKeyDown(KeyCode.T))
+                if (Input.GetKeyDown(KeyCode.Space))
                 {
                     fysik.AddForce(Vector3.up * 250);
                 }
