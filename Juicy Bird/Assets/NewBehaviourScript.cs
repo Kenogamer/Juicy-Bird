@@ -24,7 +24,6 @@ public class NewBehaviourScript : MonoBehaviour
     public Text points;
 
 
-
     
     void Start()
     {
@@ -86,7 +85,7 @@ public class NewBehaviourScript : MonoBehaviour
             Destroy(ajj[0]);
             ajj.RemoveAt(0);
         }
-        if (start == true)
+        if (alive == true)
         {
             if (GameOver == false)
             {
@@ -99,7 +98,7 @@ public class NewBehaviourScript : MonoBehaviour
             ajj[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
         }
 
-        if (start == false)
+        if (alive == false)
         {
             rb2d.constraints = RigidbodyConstraints.FreezePosition;
             Debug.Log("Not started");
@@ -126,9 +125,11 @@ public class NewBehaviourScript : MonoBehaviour
             }
         }
 
+
     }
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnCollisionEnter(Collision2D collision)
     {
         if (collision.transform.tag == "DON'T TOUCH")
         {
