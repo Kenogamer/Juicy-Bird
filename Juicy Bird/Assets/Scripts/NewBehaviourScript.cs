@@ -7,61 +7,66 @@ public class NewBehaviourScript : MonoBehaviour
 {
 
     public GameObject player;
-    public Rigidbody fysik;
-    public bool lose;
-    public float yta;
+    public GameObject topPipe;
+    public GameObject groundPipe;
+    public Rigidbody rb2d;
+
+    public bool GameOver;
     public bool start;
+    public float yta;
+    public float time;
+    public float addPoints;
+
     public List<GameObject> ajj;
-    public GameObject pipetack;
-    public GameObject NERIPE;
-    public float tid;
+    
+    
     public AudioSource DeathSound;
     public Text points;
-    public float pointsIgen;
+
 
 
     
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
-        tid = 3;
+        time = 3;
     }
 
     
     void Update()
     {
-        points.text = "Score: " + pointsIgen;
-        yta += tid;
-        tid -= Time.deltaTime;
-        if (tid <= 0)
+        points.text = "Score: " + addPoints;
+        yta += time;
+        time -= Time.deltaTime;
+        if (time <= 0)
         {
             GameObject typ = new GameObject();
             int r = Random.Range(0, 2);
             if (r == 0)
             {
-                typ = Instantiate(pipetack, new Vector3(3, 2.5f, 0), Quaternion.identity);
+                typ = Instantiate(topPipe, new Vector3(3, 2.5f, 0), Quaternion.identity);
             }
             if (r == 1)
             {
                 yta = transform.position.y;
-                typ = Instantiate(NERIPE, new Vector3(3, 0.6f, 0), Quaternion.identity);
+                typ = Instantiate(groundPipe, new Vector3(3, 0.6f, 0), Quaternion.identity);
             }
             ajj.Add(typ);
-            tid = 3;
+            time = 3;
         }
 
         if (start == true)
         {
-            if (lose != true)
+            if (GameOver != true)
             {
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
-                    fysik.AddForce(Vector3.up * 250);
+                    rb2d.AddForce(Vector3.up * 250);
                 }
             }
         }
 
-        if (lose == true)
+        if (GameOver == true)
         {
             if (DeathSound.isPlaying == false)
             {
@@ -72,8 +77,8 @@ public class NewBehaviourScript : MonoBehaviour
                 DeathSound.Play();
             }
             
-            fysik.constraints = RigidbodyConstraints.FreezePosition;
-            Debug.Log("lost");
+            rb2d.constraints = RigidbodyConstraints.FreezePosition;
+            Debug.Log("It's over");
         }
 
         if (ajj.Count > 10)
@@ -83,9 +88,9 @@ public class NewBehaviourScript : MonoBehaviour
         }
         if (start == true)
         {
-            if (lose == false)
+            if (GameOver == false)
             {
-                pointsIgen += 1 * Time.deltaTime;
+                addPoints += 1 * Time.deltaTime;
             }
         }
         for (int i = 0; i < ajj.Count; i++)
@@ -96,26 +101,28 @@ public class NewBehaviourScript : MonoBehaviour
 
         if (start == false)
         {
-            fysik.constraints = RigidbodyConstraints.FreezePosition;
+            rb2d.constraints = RigidbodyConstraints.FreezePosition;
             Debug.Log("Not started");
         }
         else
         {
-            if (lose == false)
+            if (GameOver == false)
             {
-                fysik.constraints = RigidbodyConstraints.None;
-                fysik.constraints = RigidbodyConstraints.FreezeRotation;
+                rb2d.constraints = RigidbodyConstraints.None;
+                rb2d.constraints = RigidbodyConstraints.FreezeRotation;
                 Debug.Log("started");
             }
             
         }
 
+        //Players press Space to fly
         if (start == false)
         {
-            if (Input.GetKeyDown(KeyCode.T))
+          
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 start = true;
-                fysik.AddForce(Vector3.up * 250);
+                rb2d.AddForce(Vector3.up * 250);
             }
         }
 
@@ -123,9 +130,12 @@ public class NewBehaviourScript : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.tag == "DONTTOUCH")
+        if (collision.transform.tag == "DON'T TOUCH")
         {
-            lose = true;
+            GameOver = true;
+            rb2d.velocity = Vector2.zero;
         }
     }
+
+
 }

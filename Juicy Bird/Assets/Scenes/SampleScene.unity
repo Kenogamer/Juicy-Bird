@@ -373,17 +373,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1597952192}
-  fysik: {fileID: 264864084}
-  lose: 0
-  yta: 0
+  topPipe: {fileID: 742445567}
+  groundPipe: {fileID: 561470008}
+  rb2d: {fileID: 264864084}
+  GameOver: 0
   start: 0
+  yta: -0.83
+  time: 0
+  addPoints: 0
   ajj: []
-  pipetack: {fileID: 561470008}
-  NERIPE: {fileID: 742445567}
-  tid: 0
   DeathSound: {fileID: 0}
   points: {fileID: 193982102}
-  pointsIgen: 0
 --- !u!4 &264864082
 Transform:
   m_ObjectHideFlags: 0

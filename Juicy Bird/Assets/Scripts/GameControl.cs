@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameControl : MonoBehaviour
 {
@@ -13,8 +14,9 @@ public class GameControl : MonoBehaviour
     private int score = 0;
     public bool gameOver = false;
     public float scrollSpeed = -1.5f;
+    public Text scoreText;
 
-    private void Awake()
+    void Awake()
     {
         if (instance == null)
             instance = this;
@@ -22,5 +24,32 @@ public class GameControl : MonoBehaviour
         else if (instance != this)
             Destroy(gameObject);
     }
-    
+
+    private void Update()
+    {
+        if(gameOver && Input.GetMouseButtonDown(0))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+    }
+
+    public void GhostScored()
+    {
+        //the ghost can not score if the game is over
+        if (gameOver)
+            return;
+
+        score++;
+        scoreText.text = "Score; " + score.ToString();
+
+        
+    }
+
+    public void GhostDied()
+    {
+        gameOvertext.SetActive(true);
+        gameOver = true;
+    }
+
+
 }
