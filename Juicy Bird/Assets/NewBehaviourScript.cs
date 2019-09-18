@@ -28,7 +28,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
-        time = 3;
+        time = 5;
     }
 
     
@@ -85,26 +85,27 @@ public class NewBehaviourScript : MonoBehaviour
             Destroy(ajj[0]);
             ajj.RemoveAt(0);
         }
-        if (alive == true)
+
+        if (GameOver == false)
         {
-            if (GameOver == false)
-            {
-                addPoints += 1 * Time.deltaTime;
-            }
+            addPoints += 1 * Time.deltaTime;
         }
+
         for (int i = 0; i < ajj.Count; i++)
         {
 
             ajj[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
         }
 
-        if (alive == false)
+        // if it is game over for the player
+        if (GameOver == true)
         {
             rb2d.constraints = RigidbodyConstraints.FreezePosition;
             Debug.Log("Not started");
         }
         else
         {
+            //If it's not game over for the player
             if (GameOver == false)
             {
                 rb2d.constraints = RigidbodyConstraints.None;
@@ -128,7 +129,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     }
 
-
+    //If player touch collisions they die na dhopefully the game stops ;w;
     private void OnCollisionEnter(Collision2D collision)
     {
         if (collision.transform.tag == "DON'T TOUCH")
