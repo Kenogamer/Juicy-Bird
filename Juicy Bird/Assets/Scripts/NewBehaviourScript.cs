@@ -28,7 +28,7 @@ public class NewBehaviourScript : MonoBehaviour
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
-        time = 5;
+        time = 3;
     }
 
     
