@@ -9,36 +9,36 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject player;
     public GameObject topPipe;
     public GameObject groundPipe;
-    public Rigidbody rb2d;
+    public Rigidbody2D rb2d;
 
-    public bool GameOver;
+    public bool gameOver;
     public bool start;
     public float yta;
     public float time;
     public float addPoints;
 
-    public List<GameObject> ajj;
-    
-    
-    public AudioSource DeathSound;
+    public List<GameObject> Obsticles;
+    public AudioSource sound;
     public Text points;
 
 
-    
+    // Start is called before the first frame update
     void Start()
     {
         yta = gameObject.transform.GetSiblingIndex();
         time = 3;
     }
 
-    
+    // Update is called once per frame
     void Update()
     {
-        points.text = "Score: " + addPoints;
+        points.text = "Score:" + addPoints;
         yta += time;
         time -= Time.deltaTime;
         if (time <= 0)
         {
+            //Adds obsticles
+
             GameObject typ = new GameObject();
             int r = Random.Range(0, 2);
             if (r == 0)
@@ -50,13 +50,14 @@ public class NewBehaviourScript : MonoBehaviour
                 yta = transform.position.y;
                 typ = Instantiate(groundPipe, new Vector3(3, 0.6f, 0), Quaternion.identity);
             }
-            ajj.Add(typ);
+            Obsticles.Add(typ);
             time = 3;
         }
 
+        // Player needs to press SPACE to fly
         if (start == true)
         {
-            if (GameOver != true)
+            if (gameOver != true)
             {
                 if (Input.GetKeyDown(KeyCode.Space))
                 {
@@ -65,79 +66,73 @@ public class NewBehaviourScript : MonoBehaviour
             }
         }
 
-        if (GameOver == true)
+        //it's game over once the player hit the roof or the ground :)
+        //Also play the "death sound" + debug.log. "lost"
+        if (gameOver == true)
         {
-            if (DeathSound.isPlaying == false)
+            if (sound.isPlaying == false)
             {
                 if (yta == 13)
                 {
                     yta = yta / yta;
                 }
-                DeathSound.Play();
+                sound.Play();
             }
-            
-            rb2d.constraints = RigidbodyConstraints.FreezePosition;
-            Debug.Log("It's over");
+
+            rb2d.constraints = RigidbodyConstraints2D.FreezePosition;
+            Debug.Log("lost");
         }
 
-        if (ajj.Count > 10)
+        if (Obsticles.Count > 10)
         {
-            Destroy(ajj[0]);
-            ajj.RemoveAt(0);
+            Destroy(Obsticles[0]);
+            Obsticles.RemoveAt(0);
+        }
+        if (start == true)
+        {
+            if (gameOver == false)
+            {
+                addPoints += 1 * Time.deltaTime;
+            }
+        }
+        for (int i = 0; i < Obsticles.Count; i++)
+        {
+
+            Obsticles[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
         }
 
-        if (GameOver == false)
+        if (start == false)
         {
-            addPoints += 1 * Time.deltaTime;
-        }
-
-        for (int i = 0; i < ajj.Count; i++)
-        {
-
-            ajj[i].transform.position -= new Vector3(1 * Time.deltaTime, 0, 0);
-        }
-
-        // if it is game over for the player
-        if (GameOver == true)
-        {
-            rb2d.constraints = RigidbodyConstraints.FreezePosition;
+            rb2d.constraints = RigidbodyConstraints2D.FreezePosition;
             Debug.Log("Not started");
         }
         else
         {
-            //If it's not game over for the player
-            if (GameOver == false)
+            if (gameOver == false)
             {
-                rb2d.constraints = RigidbodyConstraints.None;
-                rb2d.constraints = RigidbodyConstraints.FreezeRotation;
+                rb2d.constraints = RigidbodyConstraints2D.None;
+                rb2d.constraints = RigidbodyConstraints2D.FreezePosition;
                 Debug.Log("started");
             }
-            
+
         }
 
-        //Players press Space to fly
         if (start == false)
         {
-          
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.T))
             {
                 start = true;
                 rb2d.AddForce(Vector3.up * 250);
             }
         }
 
-
     }
 
-    //If player touch collisions they die na dhopefully the game stops ;w;
-    private void OnCollisionEnter(Collision2D collision)
+    private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.tag == "DON'T TOUCH")
+        if (collision.transform.tag == "DONTTOUCH")
         {
-            GameOver = true;
-            rb2d.velocity = Vector2.zero;
+            gameOver = true;
         }
     }
-
-
 }

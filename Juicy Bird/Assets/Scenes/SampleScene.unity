@@ -221,7 +221,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 237.1, y: 28.9}
+  m_SizeDelta: {x: 237.1, y: 49.49}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &184689444
 MonoBehaviour:
@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.627451, b: 0.98934835, a: 1}
+  m_Color: {r: 0.9716981, g: 0.9716981, b: 0.9716981, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 1, b: 0.41188765, a: 1}
+  m_Color: {r: 0.00477908, g: 0.0007564989, b: 0.16037738, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -331,7 +331,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Skor: 0'
+  m_Text: 'Score: 0'
 --- !u!222 &193982103
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -376,13 +376,13 @@ MonoBehaviour:
   topPipe: {fileID: 742445567}
   groundPipe: {fileID: 561470008}
   rb2d: {fileID: 264864084}
-  GameOver: 0
+  gameOver: 0
   start: 0
   yta: -0.83
   time: 0
   addPoints: 0
-  ajj: []
-  DeathSound: {fileID: 0}
+  Obsticles: []
+  sound: {fileID: 0}
   points: {fileID: 193982102}
 --- !u!4 &264864082
 Transform:
@@ -1235,12 +1235,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: d39c4628b53636645b6368db8061a3d0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24d53e4f8a1f9b540952a0831d83fcc2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 40, y: 40}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1254,8 +1254,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1381721125}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.12908353, y: 2.1037998, z: 0.45}
-  m_LocalScale: {x: 1.42, y: 1, z: 1}
+  m_LocalPosition: {x: 1.095, y: 1.784, z: 0.45}
+  m_LocalScale: {x: 1.5492198, y: 1.091, z: 1.091}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
