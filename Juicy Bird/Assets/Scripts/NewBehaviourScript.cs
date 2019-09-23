@@ -15,7 +15,7 @@ public class NewBehaviourScript : MonoBehaviour
     public bool start;
     public float yta;
     public float time;
-    public float addPoints;
+    public int addPoints;
 
     public List<GameObject> Obsticles;
     public AudioSource sound;
@@ -87,13 +87,10 @@ public class NewBehaviourScript : MonoBehaviour
         {
             Destroy(Obsticles[0]);
             Obsticles.RemoveAt(0);
-        }
+        } // add point once the game is on
         if (start == true)
         {
-            if (gameOver == false)
-            {
-                addPoints += 1 * Time.deltaTime;
-            }
+            addPoints += 1;
         }
         for (int i = 0; i < Obsticles.Count; i++)
         {
@@ -117,9 +114,9 @@ public class NewBehaviourScript : MonoBehaviour
 
         }
 
-        if (start == false)
+        if (start == true)
         {
-            if (Input.GetKeyDown(KeyCode.T))
+            if (Input.GetKeyDown(KeyCode.Space))
             {
                 start = true;
                 rb2d.AddForce(Vector3.up * 250);
