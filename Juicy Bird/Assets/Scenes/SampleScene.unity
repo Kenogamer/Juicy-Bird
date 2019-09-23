@@ -428,10 +428,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 264864082}
-  - component: {fileID: 264864081}
   - component: {fileID: 264864085}
   - component: {fileID: 264864084}
   - component: {fileID: 264864083}
+  - component: {fileID: 264864081}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -448,7 +448,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 264864080}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a45470ab25604e34a81eb58fcf24ad54, type: 3}
+  m_Script: {fileID: 11500000, guid: b585bb5a9bd1a8c4e92ba36fa7b20dca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 264864080}
@@ -457,9 +457,9 @@ MonoBehaviour:
   rb2d: {fileID: 264864084}
   gameOver: 0
   start: 0
-  yta: -0.83
+  yta: 0
   time: 0
-  addPoints: 1
+  addPoints: 0
   Obsticles: []
   sound: {fileID: 0}
   points: {fileID: 193982102}
