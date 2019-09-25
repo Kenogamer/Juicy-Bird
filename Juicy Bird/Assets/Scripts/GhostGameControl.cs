@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GhostGameControl : MonoBehaviour
 {
-
+    //NOT USING THIS SCRIPT
     public GameObject player;
     public GameObject topPipe;
     public GameObject groundPipe;
