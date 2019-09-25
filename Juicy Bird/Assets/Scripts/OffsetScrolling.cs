@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class OffsetScrolling : MonoBehaviour
 {
+    //makes the background scroll
     public float scrollSpeed;
 
     private Renderer rend;

@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class BackgroundSwapper : MonoBehaviour
 {
+    //starts a countdown and switches background if countdown is 30
     public Camera Spring_Camera;
     public Camera Winter_Camera;
-    public bool Ongoing;
+    
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class BackgroundSwapper : MonoBehaviour
     {
        
     }
-
+    
     IEnumerator SwitchBackground()
     {
         while (true)
