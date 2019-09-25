@@ -62,15 +62,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BackgroundSwapper.cs" />
-    <Compile Include="Assets\Scripts\GhostGameControl.cs" />
-    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
-    <Compile Include="Assets\Scripts\OffsetScrolling.cs" />
     <Compile Include="Assets\Scripts\AddPoints.cs" />
+    <Compile Include="Assets\Scripts\BackgroundSwapper.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\GhostGameControl.cs" />
     <Compile Include="Assets\Scripts\MoveObstacles.cs" />
     <Compile Include="Assets\Scripts\ObstaclesSpawner.cs" />
+    <Compile Include="Assets\Scripts\OffsetScrolling.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Reference Include="Unity.Timeline.Editor">
