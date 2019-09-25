@@ -1,0 +1,1915 @@
+fileFormatVersion: 2
+guid: 554d96fa7494e6d4c94d744e95d2105e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1026879908531071385
+    second: yumyum_0
+  - first:
+      213: 6092091945128000612
+    second: yumyum_1
+  - first:
+      213: -4436052787787203481
+    second: yumyum_2
+  - first:
+      213: -7182223296189897702
+    second: yumyum_3
+  - first:
+      213: 7423949772530333788
+    second: yumyum_4
+  - first:
+      213: 7914271174736355477
+    second: yumyum_5
+  - first:
+      213: -3927572755870792492
+    second: yumyum_6
+  - first:
+      213: 4293220314299690925
+    second: yumyum_7
+  - first:
+      213: 2128796869886301057
+    second: yumyum_8
+  - first:
+      213: -8642927744114308628
+    second: yumyum_9
+  - first:
+      213: -5276389505129614473
+    second: yumyum_10
+  - first:
+      213: -2031808163969283684
+    second: yumyum_11
+  - first:
+      213: 5336535871196737615
+    second: yumyum_12
+  - first:
+      213: -8153766861723649454
+    second: yumyum_13
+  - first:
+      213: -8847297923814032203
+    second: yumyum_14
+  - first:
+      213: -513712119268741435
+    second: yumyum_15
+  - first:
+      213: -1871315081366368362
+    second: yumyum_16
+  - first:
+      213: -6511057604832009844
+    second: yumyum_17
+  - first:
+      213: -3295357204891109578
+    second: yumyum_18
+  - first:
+      213: -3352979635766046024
+    second: yumyum_19
+  - first:
+      213: 8328927666897810421
+    second: yumyum_20
+  - first:
+      213: 6163093790952317299
+    second: yumyum_21
+  - first:
+      213: -8618113440963938874
+    second: yumyum_22
+  - first:
+      213: -5462875417446834651
+    second: yumyum_23
+  - first:
+      213: -7929948752507374163
+    second: yumyum_24
+  - first:
+      213: -927316961560030079
+    second: yumyum_25
+  - first:
+      213: -1156998537408428483
+    second: yumyum_26
+  - first:
+      213: 5465272724875725999
+    second: yumyum_27
+  - first:
+      213: -1038740421847835119
+    second: yumyum_28
+  - first:
+      213: -2220624316513321321
+    second: yumyum_29
+  - first:
+      213: 7364557543052520662
+    second: yumyum_30
+  - first:
+      213: -8830931114065795072
+    second: yumyum_31
+  - first:
+      213: 9205931924786527310
+    second: yumyum_32
+  - first:
+      213: 5462216353759810509
+    second: yumyum_33
+  - first:
+      213: 5278421049140063067
+    second: yumyum_34
+  - first:
+      213: -4282811953814147962
+    second: yumyum_35
+  - first:
+      213: 5585082571952047846
+    second: yumyum_36
+  - first:
+      213: -5580943987436301951
+    second: yumyum_37
+  - first:
+      213: 6764281612609077941
+    second: yumyum_38
+  - first:
+      213: 3680484398281993999
+    second: yumyum_39
+  - first:
+      213: -807289156783507630
+    second: yumyum_40
+  - first:
+      213: 4084271657475658170
+    second: yumyum_41
+  - first:
+      213: -288084322021666868
+    second: yumyum_42
+  - first:
+      213: -8436161183640836093
+    second: yumyum_43
+  - first:
+      213: 163648472926758704
+    second: yumyum_44
+  - first:
+      213: 5775591626486212021
+    second: yumyum_45
+  - first:
+      213: 5916190939454824011
+    second: yumyum_46
+  - first:
+      213: 4133094600484673071
+    second: yumyum_47
+  - first:
+      213: -6679637455854252760
+    second: yumyum_48
+  - first:
+      213: -8195720970409366747
+    second: yumyum_49
+  - first:
+      213: -3257204951716406219
+    second: yumyum_50
+  - first:
+      213: -1605328561702201000
+    second: yumyum_51
+  - first:
+      213: 7000643011855092227
+    second: yumyum_52
+  - first:
+      213: 3887499581568307286
+    second: yumyum_53
+  - first:
+      213: -7172958388304916575
+    second: yumyum_54
+  - first:
+      213: -5408458815070640056
+    second: yumyum_55
+  - first:
+      213: 8414641359931105774
+    second: yumyum_56
+  - first:
+      213: 7500829874919908594
+    second: yumyum_57
+  - first:
+      213: 2644409803866610940
+    second: yumyum_58
+  - first:
+      213: 5595220087758571355
+    second: yumyum_59
+  - first:
+      213: -5949128173140150268
+    second: yumyum_60
+  - first:
+      213: -6320563361207365818
+    second: yumyum_61
+  - first:
+      213: 3076639386318501859
+    second: yumyum_62
+  - first:
+      213: 7332844857198006956
+    second: yumyum_63
+  - first:
+      213: -7465081465876313880
+    second: yumyum_64
+  - first:
+      213: -8890395553036331839
+    second: yumyum_65
+  - first:
+      213: -5317133115239485240
+    second: yumyum_66
+  - first:
+      213: 7367174306543656883
+    second: yumyum_67
+  - first:
+      213: -9194733085987152634
+    second: yumyum_68
+  - first:
+      213: 4272835843435338460
+    second: yumyum_69
+  - first:
+      213: 2197095863317693825
+    second: yumyum_70
+  - first:
+      213: 1060899262586043916
+    second: yumyum_71
+  - first:
+      213: -8574662343710559522
+    second: yumyum_72
+  - first:
+      213: 9011916535315140756
+    second: yumyum_73
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yumyum_0
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 6757
+        width: 465
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8416147fa2e97945a163220ccb725b8
+      internalID: 1026879908531071385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_1
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 6757
+        width: 465
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca94d6080aebf141b4c5969f9b3645e
+      internalID: 6092091945128000612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_2
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 6757
+        width: 465
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8addbba4d2a5b784aa30099c757119e3
+      internalID: -4436052787787203481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_3
+      rect:
+        serializedVersion: 2
+        x: 5028
+        y: 6757
+        width: 465
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987c27147cbed0f4a95183933828cd8a
+      internalID: -7182223296189897702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_4
+      rect:
+        serializedVersion: 2
+        x: 6526
+        y: 6749
+        width: 465
+        height: 751
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d56bd7ce8669b34d9113281b764c910
+      internalID: 7423949772530333788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_5
+      rect:
+        serializedVersion: 2
+        x: 6819
+        y: 6705
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692a587863ebdaa4ebf1935d29901b3d
+      internalID: 7914271174736355477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_6
+      rect:
+        serializedVersion: 2
+        x: 6808
+        y: 6537
+        width: 36
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0d2e4dbfe647f44b077eeb16cdd271
+      internalID: -3927572755870792492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_7
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 5259
+        width: 465
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2b25d369cf7d342aef23badf26b4a8
+      internalID: 4293220314299690925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_8
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 5259
+        width: 465
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a42bba9b2a1074689ca3e35e28dcb4
+      internalID: 2128796869886301057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_9
+      rect:
+        serializedVersion: 2
+        x: 3527
+        y: 5259
+        width: 465
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60136322b8abf064f9e22da47face26d
+      internalID: -8642927744114308628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_10
+      rect:
+        serializedVersion: 2
+        x: 4918
+        y: 5299
+        width: 645
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b9a57621ae8a249ba83bd5461274f0
+      internalID: -5276389505129614473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_11
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 5299
+        width: 648
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bde961ea9f884a49bf49434c79f7096
+      internalID: -2031808163969283684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_12
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 5120
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077ca355cc73f2d47b6cd0b0ca11d5f6
+      internalID: 5336535871196737615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_13
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 5046
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a25d2b15b370534281b9f2198e3c93f
+      internalID: -8153766861723649454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_14
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 4878
+        width: 33
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34670bbfdf78d694681d7125f959d690
+      internalID: -8847297923814032203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_15
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 4808
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3134cc24944378a4fbc6977b4be2b4b5
+      internalID: -513712119268741435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_16
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 4768
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d99acf2d7cb2ec469bb679c19942500
+      internalID: -1871315081366368362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_17
+      rect:
+        serializedVersion: 2
+        x: 2296
+        y: 4647
+        width: 37
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf887ce379ed8fb4ab36a03689262e9b
+      internalID: -6511057604832009844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_18
+      rect:
+        serializedVersion: 2
+        x: 3809
+        y: 4607
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfcfd5abc0a5fe94c8141af04a69dddc
+      internalID: -3295357204891109578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_19
+      rect:
+        serializedVersion: 2
+        x: 3798
+        y: 4578
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca86e04c75213394dabae59bed1247eb
+      internalID: -3352979635766046024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_20
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 3798
+        width: 645
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe702ff979f130c4d966bb2d4731cdbd
+      internalID: 8328927666897810421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_21
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 3798
+        width: 648
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c055ee0517da7b4493fcc541c20307b
+      internalID: 6163093790952317299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_22
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 3798
+        width: 644
+        height: 765
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 960d1eb352fb7c84b97da10c9f2a8e1c
+      internalID: -8618113440963938874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_23
+      rect:
+        serializedVersion: 2
+        x: 4918
+        y: 3798
+        width: 645
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d0bdf2f644f464985a0e788c3fc461
+      internalID: -5462875417446834651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_24
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 3798
+        width: 648
+        height: 703
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba42de55b07fc241a4907c17f474c09
+      internalID: -7929948752507374163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_25
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 3688
+        width: 36
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990a2db5aa508f543aaccace05faa869
+      internalID: -927316961560030079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_26
+      rect:
+        serializedVersion: 2
+        x: 5035
+        y: 3776
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ed11a561d67334994c82158ac53eb5
+      internalID: -1156998537408428483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_27
+      rect:
+        serializedVersion: 2
+        x: 6969
+        y: 3757
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83086d4c30afc14a92161b6c44eca0f
+      internalID: 5465272724875725999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_28
+      rect:
+        serializedVersion: 2
+        x: 5046
+        y: 3739
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21eed101727c3a24cb65dc23842a30d1
+      internalID: -1038740421847835119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_29
+      rect:
+        serializedVersion: 2
+        x: 2267
+        y: 3647
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5e64012e3be9d45af56c7fc191f83f
+      internalID: -2220624316513321321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_30
+      rect:
+        serializedVersion: 2
+        x: 6519
+        y: 3629
+        width: 22
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eed9881757c904e41845190568cce7a2
+      internalID: 7364557543052520662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_31
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 3486
+        width: 26
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178bd3acb2c09cc42861fb94938311ab
+      internalID: -8830931114065795072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_32
+      rect:
+        serializedVersion: 2
+        x: 6537
+        y: 3578
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f7e5b5a004e4448add71b45a0c6c05
+      internalID: 9205931924786527310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_33
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 3439
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b659b43801a32f478ff57814238f617
+      internalID: 5462216353759810509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_34
+      rect:
+        serializedVersion: 2
+        x: 3768
+        y: 3409
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b88699af0c42d434da523f6411c47afe
+      internalID: 5278421049140063067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_35
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 3186
+        width: 33
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0544b29554a5848aefd5ded7c7aa08
+      internalID: -4282811953814147962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_36
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 3138
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9066886048cd900428b49df23e6c7783
+      internalID: 5585082571952047846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_37
+      rect:
+        serializedVersion: 2
+        x: 5248
+        y: 3076
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5726f93b0a8b8b428cca3b2c1abeb16
+      internalID: -5580943987436301951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_38
+      rect:
+        serializedVersion: 2
+        x: 6749
+        y: 3087
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7302b624800247d49b0e0e5da4b5a5ee
+      internalID: 6764281612609077941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_39
+      rect:
+        serializedVersion: 2
+        x: 6749
+        y: 3069
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9e564be652e2f458c96491db91011a
+      internalID: 3680484398281993999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_40
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 2296
+        width: 645
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d676e541f8d27f94884c244d6c511a3f
+      internalID: -807289156783507630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_41
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 2296
+        width: 648
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2731e3022b1d3614b8eb29591080b4e7
+      internalID: 4084271657475658170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_42
+      rect:
+        serializedVersion: 2
+        x: 3417
+        y: 2296
+        width: 644
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6159790ec21a854b95f6e95f354a40e
+      internalID: -288084322021666868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_43
+      rect:
+        serializedVersion: 2
+        x: 4918
+        y: 2296
+        width: 645
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63502d279e185ab47af718fadb8020cd
+      internalID: -8436161183640836093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_44
+      rect:
+        serializedVersion: 2
+        x: 6416
+        y: 2296
+        width: 648
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f09055403ecb814db441d012ef55b4d
+      internalID: 163648472926758704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_45
+      rect:
+        serializedVersion: 2
+        x: 3538
+        y: 2260
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdeebaab9b3dcb841ad4e934a75c3774
+      internalID: 5775591626486212021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_46
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2036
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49357e3b76525394bbc465451b765d69
+      internalID: 5916190939454824011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_47
+      rect:
+        serializedVersion: 2
+        x: 5028
+        y: 2036
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d974d38a021b04797a4c678a484788
+      internalID: 4133094600484673071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_48
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1897
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8420c1c5728ec474186f3b9da9f67e0b
+      internalID: -6679637455854252760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_49
+      rect:
+        serializedVersion: 2
+        x: 5035
+        y: 1897
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59402a2051baee7488e8c529557e8c7e
+      internalID: -8195720970409366747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_50
+      rect:
+        serializedVersion: 2
+        x: 2468
+        y: 1827
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ef6d805d0a58c4d921422080e8d3d2
+      internalID: -3257204951716406219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_51
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1769
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c65064e07d0a29d448bc98893eede824
+      internalID: -1605328561702201000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_52
+      rect:
+        serializedVersion: 2
+        x: 5028
+        y: 1776
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed860ce5893a84848b13ce86979ce2ce
+      internalID: 7000643011855092227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_53
+      rect:
+        serializedVersion: 2
+        x: 6537
+        y: 1729
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ce8533e7b92e664bb123948779e977b
+      internalID: 3887499581568307286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_54
+      rect:
+        serializedVersion: 2
+        x: 3516
+        y: 1597
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8010935807e0cd94db71cef333e03daa
+      internalID: -7172958388304916575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_55
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 1597
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f26bedab837c924b9ccea56d75d0d17
+      internalID: -5408458815070640056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_56
+      rect:
+        serializedVersion: 2
+        x: 6537
+        y: 1589
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7648a54034dc2284fb67a43d0ae965a5
+      internalID: 8414641359931105774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_57
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 758
+        width: 553
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97435fb42a48b284f923868a54387f8b
+      internalID: 7500829874919908594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_58
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 758
+        width: 556
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8251bcd97ba52f43956d28f17938fd1
+      internalID: 2644409803866610940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_59
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 758
+        width: 553
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4326dafff6657c74b88b44c1d831564d
+      internalID: 5595220087758571355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_60
+      rect:
+        serializedVersion: 2
+        x: 4969
+        y: 758
+        width: 553
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808978a7f6e02e3489b94219c7a9641d
+      internalID: -5949128173140150268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_61
+      rect:
+        serializedVersion: 2
+        x: 6467
+        y: 758
+        width: 557
+        height: 743
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e2c400ebb02ac4fbaaedbf14dfc358
+      internalID: -6320563361207365818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_62
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 619
+        width: 25
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdaf054ee9e1e34b88f5709c8fe7dbf
+      internalID: 3076639386318501859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_63
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 656
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d85994cd5ef0e04895c336974ae225e
+      internalID: 7332844857198006956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_64
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 568
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db54b4c9f83bc094aaff07b63015108f
+      internalID: -7465081465876313880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_65
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 516
+        width: 30
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe8519964c2d8b43be2fb26e9edf604
+      internalID: -8890395553036331839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_66
+      rect:
+        serializedVersion: 2
+        x: 3728
+        y: 428
+        width: 15
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c4482ec13a99d4297febc8a97daa45
+      internalID: -5317133115239485240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_67
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 388
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3eb11f750da6b04cae8e4f6a4812047
+      internalID: 7367174306543656883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_68
+      rect:
+        serializedVersion: 2
+        x: 5226
+        y: 209
+        width: 36
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5ed73b6228c4c419df51003626cc24
+      internalID: -9194733085987152634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_69
+      rect:
+        serializedVersion: 2
+        x: 6716
+        y: 157
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf9280d4656006449b0f0f9b313789c
+      internalID: 4272835843435338460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_70
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 128
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cfde59fc71df454f90a9e6715e4510a
+      internalID: 2197095863317693825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_71
+      rect:
+        serializedVersion: 2
+        x: 5219
+        y: 99
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19595fd2ea1dea542b826ac4eb15fea2
+      internalID: 1060899262586043916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_72
+      rect:
+        serializedVersion: 2
+        x: 6716
+        y: 26
+        width: 26
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8db200cbc9830ce4598da398128f191d
+      internalID: -8574662343710559522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yumyum_73
+      rect:
+        serializedVersion: 2
+        x: 6716
+        y: 0
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1520229f2468eb46bf790a03b2bd9b4
+      internalID: 9011916535315140756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0518247ee8bb7294ab4302c89985e8eb
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

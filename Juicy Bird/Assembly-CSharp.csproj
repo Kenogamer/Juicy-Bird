@@ -62,10 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BackgroundSwapper.cs" />
     <Compile Include="Assets\Scripts\GhostGameControl.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
-    <Compile Include="Assets\Scripts\RepeatingBackground.cs" />
-    <Compile Include="Assets\Scripts\Scrolling.cs" />
+    <Compile Include="Assets\Scripts\OffsetScrolling.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/gordon.nystrom/Documents/GitHub/Juicy-Bird/Juicy Bird/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
